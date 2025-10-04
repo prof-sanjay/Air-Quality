@@ -2,3 +2,23 @@
   color: rgba(56, 47, 47, 0.87);
   background-color: #f5ecec;
 }
+
+body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box{
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: #ffff;
+}
+
+button{
+  background-color: black;
+  color: #f5ecec;
+}
