@@ -55,10 +55,10 @@ function App() {
 
       <label>Distance</label>
       <select onChange={(e)=>setDistance(e.target.value)}>
-        <option value="">-- Select --</option>
-        <option value="near">Near (0–50m)</option>
-        <option value="medium">Medium (51–100m)</option>
-        <option value="far">Far (101–200m)</option>
+        <option value="">Select</option>
+        <option value="near">Near (0-50m)</option>
+        <option value="medium">Medium (51-100m)</option>
+        <option value="far">Far (101-200m)</option>
       </select>
       <br /><br />
 
